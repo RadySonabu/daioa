@@ -10,3 +10,6 @@ class Student(models.Model):
     age = models.IntegerField()
     scholar = models.BooleanField(default=False)
     phone_number = PhoneNumberField(blank=True, null=True)
+
+    def __str__(self) -> str:
+        return f"{self.first_name} {self.last_name}"
