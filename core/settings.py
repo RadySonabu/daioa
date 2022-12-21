@@ -41,7 +41,7 @@ DEFAULT_APPS = [
 THIRD_PARTY_APPS = ["corsheaders", "phonenumber_field", "phonenumbers"]
 
 CREATED_APPS = [
-    "student",
+    "apps.student",
 ]
 
 INSTALLED_APPS = DEFAULT_APPS + THIRD_PARTY_APPS + CREATED_APPS
