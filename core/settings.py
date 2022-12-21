@@ -41,6 +41,7 @@ DEFAULT_APPS = [
 THIRD_PARTY_APPS = ["corsheaders", "phonenumber_field", "phonenumbers"]
 
 CREATED_APPS = [
+    "apps.auth_v1",
     "apps.student",
 ]
 
