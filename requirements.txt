@@ -22,7 +22,7 @@ django-phonenumber-field==7.0.1
 django-phonenumbers==1.0.1
 django-templated-mail==1.1.1
 djangorestframework==3.14.0
-djangorestframework-simplejwt==5.0.0
+djangorestframework-simplejwt==4.8.0
 djoser==2.1.0
 drf-yasg==1.21.4
 durationpy==0.5
@@ -65,7 +65,7 @@ ruamel.yaml==0.17.21
 ruamel.yaml.clib==0.2.7
 s3transfer==0.6.0
 six==1.16.0
-social-auth-app-django==5.0.0
+social-auth-app-django==4.0.0
 social-auth-core==4.3.0
 sqlparse==0.4.3
 text-unidecode==1.3
