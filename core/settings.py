@@ -38,7 +38,14 @@ DEFAULT_APPS = [
     "django.contrib.staticfiles",
 ]
 
-THIRD_PARTY_APPS = ["corsheaders", "phonenumber_field", "phonenumbers"]
+THIRD_PARTY_APPS = [
+    "corsheaders",
+    "phonenumber_field",
+    "phonenumbers",
+    'rest_framework',
+    'rest_framework_simplejwt',
+]
+
 
 CREATED_APPS = [
     "apps.auth_v1",
@@ -46,6 +53,12 @@ CREATED_APPS = [
 ]
 
 INSTALLED_APPS = DEFAULT_APPS + THIRD_PARTY_APPS + CREATED_APPS
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+}
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
